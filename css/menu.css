@@ -1,0 +1,41 @@
+.menu-bg {
+    background-color: var(--bakery-bg-light);
+}
+
+.menu {
+    height: 100%;
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-wrapper.card a{
+    color: var(--bakery-bg-light);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+}
+
+.card {
+    width: 325px;
+    height: 360px;
+    position: relative;
+}
+
+.m-breakfast {
+    background-image: url("/img/breakfast.JPG");
+    /* background-color: var(--bakery-highlight); */
+}
+
+.m-lunch {
+    background-image: url("/img/lunch.jpg");
+    /* background-color: var(--bakery-highlight); */
+}
+
+.m-seasonal {
+    background-image: url("/img/seasonal.JPG");
+    /* background-color: var(--bakery-highlight); */
+}

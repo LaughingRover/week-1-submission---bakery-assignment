@@ -1,0 +1,92 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bakery-highlight: #a87e5d;
+    --bakery-blue: #0d4f72;
+    --bakery-bg-light: #fcf8ef;
+    --bakery-newsletter-blue: #e7ebee;
+    --bakery-grey: #3c3c3c;
+}
+
+
+/* Typography */
+html, body {
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: var(--primary-color);
+    overflow-x: hidden;
+}
+
+a {
+    color: black;
+}
+
+a, ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+/* a:hover {
+    text-decoration: underline
+} */
+
+h2 {
+    font-style: italic;
+}
+
+p {
+    letter-spacing: 0.05em;
+}
+/* ------------------- */
+
+
+button {
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 8rem;
+    height: 2rem;
+    border-radius: 8%;
+    border-width: 1.5px;
+    color: var(--bakery-highlight);
+    border: --bakery-highlight;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    background-color: var(--bakery-blue);
+}
+
+section {
+    height: 600px;
+}
+
+.section-heading {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.section-heading hr {
+    width: 5rem;
+    height: 0.3rem;
+    margin-top: 1rem;
+    border: none;
+    background-color: var(--bakery-highlight);
+}
+
+.img-wrapper {
+    background-size: cover;
+    background-position: center;
+}

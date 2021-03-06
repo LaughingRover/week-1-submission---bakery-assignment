@@ -1,0 +1,51 @@
+.our-bread {
+    display: flex;
+    justify-content: center;
+    height: 50%;
+}
+
+.bread-card {
+    width: 15rem;
+    height: 20rem;
+    margin: 0 1.5rem;
+    overflow: visible;
+}
+
+.bread-img {
+    height: 60%;
+    width: 80%;
+}
+
+.bread1 {
+    background-image: url("/img/bread1.png");
+}
+
+.bread2 {
+    background-image: url("/img/bread2.png");
+}
+
+.bread3 {
+    background-image: url("/img/bread3.png");
+}
+
+.bread4 {
+    background-image: url("/img/bread4.png");
+}
+
+.our-bread h3 {
+    text-align: center;
+    /* margin: 0 1rem 0 0.5rem; */
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.bread-button-wrapper {
+    width: 100vw;
+    display: block;
+    display: flex;
+    justify-content: center;
+}
+
+div button {
+    font-size: larger;
+}
