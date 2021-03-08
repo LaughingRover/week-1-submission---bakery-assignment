@@ -26,16 +26,16 @@
 }
 
 .m-breakfast {
-    background-image: url("/img/breakfast.JPG");
+    background-image: url("/img/no-gluten-bread-19.jpg");
     /* background-color: var(--bakery-highlight); */
 }
 
 .m-lunch {
-    background-image: url("/img/lunch.jpg");
+    background-image: url("/img/corn-bread-73.jpg");
     /* background-color: var(--bakery-highlight); */
 }
 
 .m-seasonal {
-    background-image: url("/img/seasonal.JPG");
+    background-image: url("/img/rrrx.jpg");
     /* background-color: var(--bakery-highlight); */
 }

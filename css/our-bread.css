@@ -12,7 +12,7 @@
 }
 
 .bread-img {
-    height: 60%;
+    height: 80%;
     width: 80%;
 }
 
@@ -34,18 +34,22 @@
 
 .our-bread h3 {
     text-align: center;
-    /* margin: 0 1rem 0 0.5rem; */
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
+    margin: 1rem 0.5rem;
 }
 
 .bread-button-wrapper {
-    width: 100vw;
-    display: block;
-    display: flex;
-    justify-content: center;
+    width: 10rem;
+    margin-left: 35rem;
+    margin-bottom: 8rem;
+    border-radius: 7px;
+    border: 1px solid var(--bakery-highlight);
 }
 
 div button {
-    font-size: larger;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    background-color: transparent;
 }
